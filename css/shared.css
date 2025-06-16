@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A1828;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #F9FAFB;
+    height: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+
+main {
+    color: #F9FAFB;
+    background-image: url("../images/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: #0A1828;
+    height: 120rem;
+    display: flex;
+    justify-content: center;;
+}
+
+footer {
+    background-color: #F9FAFB;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 2rem;
+    margin-left: 0.5rem;
+}
+
+footer i {
+    margin-left: 0.5rem;
+}
+
+#headerContent {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerContent li a {
+    text-decoration: none;
+    color: #0A1828;
+    font-size: 2rem;
+    margin-right: 2rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+#headerContent li a:hover {
+    background-color: #178582;
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+
+#logoId {
+    margin: 1rem 3rem 0 2rem;
+    display: inline-block;
+}
+
+#logoId img {
+    height: 15rem;
+    width: 15rem;
+}
+
+
+#loginDiv {
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+#loginDiv a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #0A1828;
+    background-color: #178582;
+    border-radius: 100px;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+#loginDiv a:hover {
+    background-color: #0A1828;
+    color: #178582;
+}
+
+#welcomeDiv {
+    background-color: #178582;
+    width: 50%;
+    height: 10rem;
+    border-radius: 10px;
+    position: sticky;
+    top: 25rem;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+footer i {
+  font-size: 2rem;      
+  color: #178582;          
+  cursor: pointer;
+  margin: 0.3rem;
+}
+
+footer p {
+    margin-left: 2rem;
+}
+ 
