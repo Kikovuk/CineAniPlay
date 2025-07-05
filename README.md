@@ -1,2 +1,0 @@
-# CineAniPlay
-CineAniPlay website
